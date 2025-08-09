@@ -1,0 +1,9 @@
+Flask
+psycopg2-binary
+SQLAlchemy
+passlib
+pytest
+pytest-cov
+pytest-playwright
+requests
+python-dotenv
