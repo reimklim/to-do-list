@@ -6,3 +6,8 @@ dist/
 playwright/.cache/
 node_modules/
 .env
+coverage.xml
+.coverage
+htmlcov/
+playwright-report/
+test-results/
