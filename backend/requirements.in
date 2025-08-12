@@ -7,3 +7,4 @@ pytest-cov
 pytest-playwright
 requests
 python-dotenv
+allure-pytest

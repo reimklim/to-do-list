@@ -4,6 +4,12 @@
 #
 #    pip-compile --output-file=requirements.txt requirements.in
 #
+allure-pytest==2.15.0
+    # via -r requirements.in
+allure-python-commons==2.15.0
+    # via allure-pytest
+attrs==25.3.0
+    # via allure-python-commons
 blinker==1.9.0
     # via flask
 certifi==2025.8.3
@@ -41,6 +47,7 @@ playwright==1.54.0
     # via pytest-playwright
 pluggy==1.6.0
     # via
+    #   allure-python-commons
     #   pytest
     #   pytest-cov
 psycopg2-binary==2.9.10
@@ -52,6 +59,7 @@ pygments==2.19.2
 pytest==8.4.1
     # via
     #   -r requirements.in
+    #   allure-pytest
     #   pytest-base-url
     #   pytest-cov
     #   pytest-playwright
